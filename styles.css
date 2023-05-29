@@ -1,0 +1,166 @@
+body {
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: blue;
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.login {
+  color: black;
+  margin-right: 10px;
+}
+
+.join-now {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.left-section {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.right-section {
+  background-color: white;
+  color: black;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.numbered-circles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.circle-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.circle-link.active {
+  background-color: blue;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.subscription-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.total-amount {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+}
+
+.proceed-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.left-section p {
+  margin-top: 10px;
+}
+
+.limited-time-offer {
+  font-size: 14px;
+  margin-top: 20px;
+}
